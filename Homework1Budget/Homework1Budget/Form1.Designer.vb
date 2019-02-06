@@ -112,7 +112,7 @@ Partial Class SemesterBudgeter
         'TotalIncomeLbl
         '
         Me.TotalIncomeLbl.AutoSize = True
-        Me.TotalIncomeLbl.Location = New System.Drawing.Point(469, 288)
+        Me.TotalIncomeLbl.Location = New System.Drawing.Point(457, 288)
         Me.TotalIncomeLbl.Name = "TotalIncomeLbl"
         Me.TotalIncomeLbl.Size = New System.Drawing.Size(69, 13)
         Me.TotalIncomeLbl.TabIndex = 4
@@ -129,7 +129,7 @@ Partial Class SemesterBudgeter
         '
         'TotalIncomeOutput
         '
-        Me.TotalIncomeOutput.Location = New System.Drawing.Point(428, 265)
+        Me.TotalIncomeOutput.Location = New System.Drawing.Point(411, 265)
         Me.TotalIncomeOutput.Name = "TotalIncomeOutput"
         Me.TotalIncomeOutput.ReadOnly = True
         Me.TotalIncomeOutput.Size = New System.Drawing.Size(153, 20)
@@ -349,7 +349,7 @@ Partial Class SemesterBudgeter
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(306, 288)
+        Me.Label1.Location = New System.Drawing.Point(290, 288)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(93, 13)
         Me.Label1.TabIndex = 39
@@ -472,11 +472,11 @@ Partial Class SemesterBudgeter
         'BalanceOutput
         '
         Me.BalanceOutput.AutoSize = True
-        Me.BalanceOutput.Location = New System.Drawing.Point(294, 265)
+        Me.BalanceOutput.Location = New System.Drawing.Point(326, 268)
         Me.BalanceOutput.Name = "BalanceOutput"
-        Me.BalanceOutput.Size = New System.Drawing.Size(111, 13)
+        Me.BalanceOutput.Size = New System.Drawing.Size(25, 13)
         Me.BalanceOutput.TabIndex = 55
-        Me.BalanceOutput.Text = "[Calculation Required]"
+        Me.BalanceOutput.Text = "[    ]"
         '
         'SemesterBudgeter
         '
