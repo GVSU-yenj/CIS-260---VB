@@ -55,7 +55,6 @@ Partial Class SemesterBudgeter
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ClothingPercentage = New System.Windows.Forms.TextBox()
         Me.FoodPercentage = New System.Windows.Forms.TextBox()
@@ -65,17 +64,18 @@ Partial Class SemesterBudgeter
         Me.GasPercentage = New System.Windows.Forms.TextBox()
         Me.CarMaintenancePercentage = New System.Windows.Forms.TextBox()
         Me.MiscPercentage = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.SellingPercentage = New System.Windows.Forms.TextBox()
+        Me.ExcessScholarshipPercentage = New System.Windows.Forms.TextBox()
+        Me.JobPercentage = New System.Windows.Forms.TextBox()
+        Me.ParentPercentage = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.BalanceOutput = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'CalculateBtn
         '
-        Me.CalculateBtn.Location = New System.Drawing.Point(634, 61)
+        Me.CalculateBtn.Location = New System.Drawing.Point(634, 53)
         Me.CalculateBtn.Name = "CalculateBtn"
         Me.CalculateBtn.Size = New System.Drawing.Size(110, 43)
         Me.CalculateBtn.TabIndex = 12
@@ -84,7 +84,7 @@ Partial Class SemesterBudgeter
         '
         'ClearBtn
         '
-        Me.ClearBtn.Location = New System.Drawing.Point(634, 150)
+        Me.ClearBtn.Location = New System.Drawing.Point(635, 139)
         Me.ClearBtn.Name = "ClearBtn"
         Me.ClearBtn.Size = New System.Drawing.Size(110, 43)
         Me.ClearBtn.TabIndex = 13
@@ -112,7 +112,7 @@ Partial Class SemesterBudgeter
         'TotalIncomeLbl
         '
         Me.TotalIncomeLbl.AutoSize = True
-        Me.TotalIncomeLbl.Location = New System.Drawing.Point(472, 288)
+        Me.TotalIncomeLbl.Location = New System.Drawing.Point(469, 288)
         Me.TotalIncomeLbl.Name = "TotalIncomeLbl"
         Me.TotalIncomeLbl.Size = New System.Drawing.Size(69, 13)
         Me.TotalIncomeLbl.TabIndex = 4
@@ -129,7 +129,7 @@ Partial Class SemesterBudgeter
         '
         'TotalIncomeOutput
         '
-        Me.TotalIncomeOutput.Location = New System.Drawing.Point(271, 265)
+        Me.TotalIncomeOutput.Location = New System.Drawing.Point(428, 265)
         Me.TotalIncomeOutput.Name = "TotalIncomeOutput"
         Me.TotalIncomeOutput.ReadOnly = True
         Me.TotalIncomeOutput.Size = New System.Drawing.Size(153, 20)
@@ -340,25 +340,16 @@ Partial Class SemesterBudgeter
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(332, 25)
+        Me.Label14.Location = New System.Drawing.Point(340, 25)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(65, 13)
         Me.Label14.TabIndex = 37
         Me.Label14.Text = "Income from"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(430, 265)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox1.TabIndex = 38
-        Me.TextBox1.TabStop = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(304, 288)
+        Me.Label1.Location = New System.Drawing.Point(306, 288)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(93, 13)
         Me.Label1.TabIndex = 39
@@ -368,6 +359,7 @@ Partial Class SemesterBudgeter
         '
         Me.ClothingPercentage.Location = New System.Drawing.Point(215, 50)
         Me.ClothingPercentage.Name = "ClothingPercentage"
+        Me.ClothingPercentage.ReadOnly = True
         Me.ClothingPercentage.Size = New System.Drawing.Size(49, 20)
         Me.ClothingPercentage.TabIndex = 40
         '
@@ -375,6 +367,7 @@ Partial Class SemesterBudgeter
         '
         Me.FoodPercentage.Location = New System.Drawing.Point(215, 206)
         Me.FoodPercentage.Name = "FoodPercentage"
+        Me.FoodPercentage.ReadOnly = True
         Me.FoodPercentage.Size = New System.Drawing.Size(49, 20)
         Me.FoodPercentage.TabIndex = 41
         '
@@ -382,6 +375,7 @@ Partial Class SemesterBudgeter
         '
         Me.EntertainmentPercentage.Location = New System.Drawing.Point(215, 180)
         Me.EntertainmentPercentage.Name = "EntertainmentPercentage"
+        Me.EntertainmentPercentage.ReadOnly = True
         Me.EntertainmentPercentage.Size = New System.Drawing.Size(49, 20)
         Me.EntertainmentPercentage.TabIndex = 42
         '
@@ -389,6 +383,7 @@ Partial Class SemesterBudgeter
         '
         Me.RentPercentage.Location = New System.Drawing.Point(215, 154)
         Me.RentPercentage.Name = "RentPercentage"
+        Me.RentPercentage.ReadOnly = True
         Me.RentPercentage.Size = New System.Drawing.Size(49, 20)
         Me.RentPercentage.TabIndex = 43
         '
@@ -396,6 +391,7 @@ Partial Class SemesterBudgeter
         '
         Me.UtilPercentage.Location = New System.Drawing.Point(215, 128)
         Me.UtilPercentage.Name = "UtilPercentage"
+        Me.UtilPercentage.ReadOnly = True
         Me.UtilPercentage.Size = New System.Drawing.Size(49, 20)
         Me.UtilPercentage.TabIndex = 44
         '
@@ -403,6 +399,7 @@ Partial Class SemesterBudgeter
         '
         Me.GasPercentage.Location = New System.Drawing.Point(215, 102)
         Me.GasPercentage.Name = "GasPercentage"
+        Me.GasPercentage.ReadOnly = True
         Me.GasPercentage.Size = New System.Drawing.Size(49, 20)
         Me.GasPercentage.TabIndex = 45
         '
@@ -410,6 +407,7 @@ Partial Class SemesterBudgeter
         '
         Me.CarMaintenancePercentage.Location = New System.Drawing.Point(215, 76)
         Me.CarMaintenancePercentage.Name = "CarMaintenancePercentage"
+        Me.CarMaintenancePercentage.ReadOnly = True
         Me.CarMaintenancePercentage.Size = New System.Drawing.Size(49, 20)
         Me.CarMaintenancePercentage.TabIndex = 46
         '
@@ -417,36 +415,41 @@ Partial Class SemesterBudgeter
         '
         Me.MiscPercentage.Location = New System.Drawing.Point(215, 232)
         Me.MiscPercentage.Name = "MiscPercentage"
+        Me.MiscPercentage.ReadOnly = True
         Me.MiscPercentage.Size = New System.Drawing.Size(49, 20)
         Me.MiscPercentage.TabIndex = 47
         '
-        'TextBox10
+        'SellingPercentage
         '
-        Me.TextBox10.Location = New System.Drawing.Point(516, 128)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(49, 20)
-        Me.TextBox10.TabIndex = 48
+        Me.SellingPercentage.Location = New System.Drawing.Point(516, 128)
+        Me.SellingPercentage.Name = "SellingPercentage"
+        Me.SellingPercentage.ReadOnly = True
+        Me.SellingPercentage.Size = New System.Drawing.Size(49, 20)
+        Me.SellingPercentage.TabIndex = 48
         '
-        'TextBox11
+        'ExcessScholarshipPercentage
         '
-        Me.TextBox11.Location = New System.Drawing.Point(516, 102)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(49, 20)
-        Me.TextBox11.TabIndex = 49
+        Me.ExcessScholarshipPercentage.Location = New System.Drawing.Point(516, 102)
+        Me.ExcessScholarshipPercentage.Name = "ExcessScholarshipPercentage"
+        Me.ExcessScholarshipPercentage.ReadOnly = True
+        Me.ExcessScholarshipPercentage.Size = New System.Drawing.Size(49, 20)
+        Me.ExcessScholarshipPercentage.TabIndex = 49
         '
-        'TextBox12
+        'JobPercentage
         '
-        Me.TextBox12.Location = New System.Drawing.Point(516, 76)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(49, 20)
-        Me.TextBox12.TabIndex = 50
+        Me.JobPercentage.Location = New System.Drawing.Point(516, 76)
+        Me.JobPercentage.Name = "JobPercentage"
+        Me.JobPercentage.ReadOnly = True
+        Me.JobPercentage.Size = New System.Drawing.Size(49, 20)
+        Me.JobPercentage.TabIndex = 50
         '
-        'TextBox13
+        'ParentPercentage
         '
-        Me.TextBox13.Location = New System.Drawing.Point(516, 50)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(49, 20)
-        Me.TextBox13.TabIndex = 51
+        Me.ParentPercentage.Location = New System.Drawing.Point(516, 50)
+        Me.ParentPercentage.Name = "ParentPercentage"
+        Me.ParentPercentage.ReadOnly = True
+        Me.ParentPercentage.Size = New System.Drawing.Size(49, 20)
+        Me.ParentPercentage.TabIndex = 51
         '
         'Label7
         '
@@ -466,17 +469,27 @@ Partial Class SemesterBudgeter
         Me.Label2.TabIndex = 54
         Me.Label2.Text = "% of Income"
         '
+        'BalanceOutput
+        '
+        Me.BalanceOutput.AutoSize = True
+        Me.BalanceOutput.Location = New System.Drawing.Point(294, 265)
+        Me.BalanceOutput.Name = "BalanceOutput"
+        Me.BalanceOutput.Size = New System.Drawing.Size(111, 13)
+        Me.BalanceOutput.TabIndex = 55
+        Me.BalanceOutput.Text = "[Calculation Required]"
+        '
         'SemesterBudgeter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(794, 317)
+        Me.ClientSize = New System.Drawing.Size(757, 317)
+        Me.Controls.Add(Me.BalanceOutput)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.ParentPercentage)
+        Me.Controls.Add(Me.JobPercentage)
+        Me.Controls.Add(Me.ExcessScholarshipPercentage)
+        Me.Controls.Add(Me.SellingPercentage)
         Me.Controls.Add(Me.MiscPercentage)
         Me.Controls.Add(Me.CarMaintenancePercentage)
         Me.Controls.Add(Me.GasPercentage)
@@ -486,7 +499,6 @@ Partial Class SemesterBudgeter
         Me.Controls.Add(Me.FoodPercentage)
         Me.Controls.Add(Me.ClothingPercentage)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
@@ -560,7 +572,6 @@ Partial Class SemesterBudgeter
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents ClothingPercentage As TextBox
     Friend WithEvents FoodPercentage As TextBox
@@ -570,10 +581,11 @@ Partial Class SemesterBudgeter
     Friend WithEvents GasPercentage As TextBox
     Friend WithEvents CarMaintenancePercentage As TextBox
     Friend WithEvents MiscPercentage As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents SellingPercentage As TextBox
+    Friend WithEvents ExcessScholarshipPercentage As TextBox
+    Friend WithEvents JobPercentage As TextBox
+    Friend WithEvents ParentPercentage As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents BalanceOutput As Label
 End Class
