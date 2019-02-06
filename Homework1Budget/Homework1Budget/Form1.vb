@@ -102,74 +102,74 @@ Public Class SemesterBudgeter
         ElseIf Not IsNumeric(SellingIncome.Text) Then
             MessageBox.Show("Type a number - 0 or greater - into income from selling stuff")
             '//checking to see if all boxes are positive, starting with expenses
-        ElseIf Convert.ToInt32(ClothingExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(ClothingExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into clothing expense")
-        ElseIf Convert.ToInt32(CarMaintenanceExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(CarMaintenanceExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into car maintenance expense")
-        ElseIf Convert.ToInt32(GasExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(GasExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into gas (car) expense")
-        ElseIf Convert.ToInt32(UtilExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(UtilExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into utilities expense")
-        ElseIf Convert.ToInt32(RentExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(RentExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into rent expense")
-        ElseIf Convert.ToInt32(EntertainmentExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(EntertainmentExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into entertainment expense")
-        ElseIf Convert.ToInt32(FoodExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(FoodExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into food expense")
-        ElseIf Convert.ToInt32(MiscExpense.Text) < 0 Then
+        ElseIf Convert.ToDecimal(MiscExpense.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into misc expense")
             '//then the incomes
-        ElseIf Convert.ToInt32(ParentIncome.Text) < 0 Then
+        ElseIf Convert.ToDecimal(ParentIncome.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into income from parents")
-        ElseIf Convert.ToInt32(JobIncome.Text) < 0 Then
+        ElseIf Convert.ToDecimal(JobIncome.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into income from jobs")
-        ElseIf Convert.ToInt32(ExcessScholarshipIncome.Text) < 0 Then
+        ElseIf Convert.ToDecimal(ExcessScholarshipIncome.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into income from excess scholarships")
-        ElseIf Convert.ToInt32(SellingIncome.Text) < 0 Then
+        ElseIf Convert.ToDecimal(SellingIncome.Text) < 0 Then
             MessageBox.Show("Type a number - 0 or greater - into income from selling stuff")
             '//finally time to calculate
         Else
             Dim TempExpense As Decimal = 0
             Dim TempIncome As Decimal = 0
 
-            TempExpense += Convert.ToInt32(ClothingExpense.Text)
-            TempExpense += Convert.ToInt32(CarMaintenanceExpense.Text)
-            TempExpense += Convert.ToInt32(GasExpense.Text)
-            TempExpense += Convert.ToInt32(UtilExpense.Text)
-            TempExpense += Convert.ToInt32(RentExpense.Text)
-            TempExpense += Convert.ToInt32(EntertainmentExpense.Text)
-            TempExpense += Convert.ToInt32(FoodExpense.Text)
-            TempExpense += Convert.ToInt32(MiscExpense.Text)
+            TempExpense += Convert.ToDecimal(ClothingExpense.Text)
+            TempExpense += Convert.ToDecimal(CarMaintenanceExpense.Text)
+            TempExpense += Convert.ToDecimal(GasExpense.Text)
+            TempExpense += Convert.ToDecimal(UtilExpense.Text)
+            TempExpense += Convert.ToDecimal(RentExpense.Text)
+            TempExpense += Convert.ToDecimal(EntertainmentExpense.Text)
+            TempExpense += Convert.ToDecimal(FoodExpense.Text)
+            TempExpense += Convert.ToDecimal(MiscExpense.Text)
 
-            ClothingPercentage.Text = FormatPercent(Convert.ToInt32(ClothingExpense.Text) / TempExpense)
-            CarMaintenancePercentage.Text = FormatPercent(Convert.ToInt32(CarMaintenanceExpense.Text) / TempExpense)
-            GasPercentage.Text = FormatPercent(Convert.ToInt32(GasExpense.Text) / TempExpense)
-            UtilPercentage.Text = FormatPercent(Convert.ToInt32(UtilExpense.Text) / TempExpense)
-            RentPercentage.Text = FormatPercent(Convert.ToInt32(RentExpense.Text) / TempExpense)
-            EntertainmentPercentage.Text = FormatPercent(Convert.ToInt32(EntertainmentExpense.Text) / TempExpense)
-            FoodPercentage.Text = FormatPercent(Convert.ToInt32(FoodExpense.Text) / TempExpense)
-            MiscPercentage.Text = FormatPercent(Convert.ToInt32(MiscExpense.Text) / TempExpense)
+            ClothingPercentage.Text = FormatPercent(Convert.ToDecimal(ClothingExpense.Text) / TempExpense, 1)
+            CarMaintenancePercentage.Text = FormatPercent(Convert.ToDecimal(CarMaintenanceExpense.Text) / TempExpense, 1)
+            GasPercentage.Text = FormatPercent(Convert.ToDecimal(GasExpense.Text) / TempExpense, 1)
+            UtilPercentage.Text = FormatPercent(Convert.ToDecimal(UtilExpense.Text) / TempExpense, 1)
+            RentPercentage.Text = FormatPercent(Convert.ToDecimal(RentExpense.Text) / TempExpense, 1)
+            EntertainmentPercentage.Text = FormatPercent(Convert.ToDecimal(EntertainmentExpense.Text) / TempExpense, 1)
+            FoodPercentage.Text = FormatPercent(Convert.ToDecimal(FoodExpense.Text) / TempExpense, 1)
+            MiscPercentage.Text = FormatPercent(Convert.ToDecimal(MiscExpense.Text) / TempExpense, 1)
 
-            TempIncome += Convert.ToInt32(ParentIncome.Text)
-            TempIncome += Convert.ToInt32(JobIncome.Text)
-            TempIncome += Convert.ToInt32(ExcessScholarshipIncome.Text)
-            TempIncome += Convert.ToInt32(SellingIncome.Text)
+            TempIncome += Convert.ToDecimal(ParentIncome.Text)
+            TempIncome += Convert.ToDecimal(JobIncome.Text)
+            TempIncome += Convert.ToDecimal(ExcessScholarshipIncome.Text)
+            TempIncome += Convert.ToDecimal(SellingIncome.Text)
 
-            ParentPercentage.Text = FormatPercent(Convert.ToInt32(ParentIncome.Text) / TempIncome)
-            JobPercentage.Text = FormatPercent(Convert.ToInt32(JobIncome.Text) / TempIncome)
-            ExcessScholarshipPercentage.Text = FormatPercent(Convert.ToInt32(ExcessScholarshipIncome.Text) / TempIncome)
-            SellingPercentage.Text = FormatPercent(Convert.ToInt32(SellingIncome.Text) / TempIncome)
+            ParentPercentage.Text = FormatPercent(Convert.ToDecimal(ParentIncome.Text) / TempIncome, 1)
+            JobPercentage.Text = FormatPercent(Convert.ToDecimal(JobIncome.Text) / TempIncome, 1)
+            ExcessScholarshipPercentage.Text = FormatPercent(Convert.ToDecimal(ExcessScholarshipIncome.Text) / TempIncome, 1)
+            SellingPercentage.Text = FormatPercent(Convert.ToDecimal(SellingIncome.Text) / TempIncome, 1)
 
-            If Convert.ToInt32(TempIncome) - Convert.ToInt32(TempExpense) < 0 Then
+            If Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense) < 0 Then
                 BalanceOutput.ForeColor = Color.DarkRed
-                BalanceOutput.Text = (Convert.ToInt32(TempIncome) - Convert.ToInt32(TempExpense)).ToString
-            ElseIf Convert.ToInt32(TempIncome) - Convert.ToInt32(TempExpense) < 0 Then
+                BalanceOutput.Text = (Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense)).ToString("C2")
+            ElseIf Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense) < 0 Then
                 BalanceOutput.ForeColor = Color.LightGreen
-                BalanceOutput.Text = (Convert.ToInt32(TempIncome) - Convert.ToInt32(TempExpense)).ToString
+                BalanceOutput.Text = (Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense)).ToString("C2")
             End If
 
-            TotalExpenseOutput.Text = TempExpense.ToString
-            TotalIncomeOutput.Text = TempIncome.ToString
+            TotalExpenseOutput.Text = TempExpense.ToString("C2")
+            TotalIncomeOutput.Text = TempIncome.ToString("C2")
 
             TempExpense = 0
             TempIncome = 0
