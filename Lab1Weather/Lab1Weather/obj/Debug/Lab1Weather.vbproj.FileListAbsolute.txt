@@ -1,0 +1,12 @@
+W:\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.exe.config
+W:\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.exe
+W:\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.pdb
+W:\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.xml
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbprojAssemblyReference.cache
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.Form1.resources
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.Resources.resources
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbproj.GenerateResource.cache
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbproj.CoreCompileInputs.cache
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.exe
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.xml
+W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.pdb
