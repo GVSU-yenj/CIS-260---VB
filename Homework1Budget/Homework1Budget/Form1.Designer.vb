@@ -105,7 +105,7 @@ Partial Class SemesterBudgeter
         Me.TotalExpensesLbl.AutoSize = True
         Me.TotalExpensesLbl.Location = New System.Drawing.Point(145, 288)
         Me.TotalExpensesLbl.Name = "TotalExpensesLbl"
-        Me.TotalExpensesLbl.Size = New System.Drawing.Size(80, 13)
+        Me.TotalExpensesLbl.Size = New System.Drawing.Size(91, 15)
         Me.TotalExpensesLbl.TabIndex = 3
         Me.TotalExpensesLbl.Text = "Total Expenses"
         '
@@ -114,7 +114,7 @@ Partial Class SemesterBudgeter
         Me.TotalIncomeLbl.AutoSize = True
         Me.TotalIncomeLbl.Location = New System.Drawing.Point(457, 288)
         Me.TotalIncomeLbl.Name = "TotalIncomeLbl"
-        Me.TotalIncomeLbl.Size = New System.Drawing.Size(69, 13)
+        Me.TotalIncomeLbl.Size = New System.Drawing.Size(78, 15)
         Me.TotalIncomeLbl.TabIndex = 4
         Me.TotalIncomeLbl.Text = "Total Income"
         '
@@ -225,7 +225,7 @@ Partial Class SemesterBudgeter
         Me.ClothesExpenseLbl.AutoSize = True
         Me.ClothesExpenseLbl.Location = New System.Drawing.Point(58, 50)
         Me.ClothesExpenseLbl.Name = "ClothesExpenseLbl"
-        Me.ClothesExpenseLbl.Size = New System.Drawing.Size(45, 13)
+        Me.ClothesExpenseLbl.Size = New System.Drawing.Size(52, 15)
         Me.ClothesExpenseLbl.TabIndex = 24
         Me.ClothesExpenseLbl.Text = "Clothing"
         '
@@ -234,7 +234,7 @@ Partial Class SemesterBudgeter
         Me.GasLbl.AutoSize = True
         Me.GasLbl.Location = New System.Drawing.Point(52, 102)
         Me.GasLbl.Name = "GasLbl"
-        Me.GasLbl.Size = New System.Drawing.Size(51, 13)
+        Me.GasLbl.Size = New System.Drawing.Size(59, 15)
         Me.GasLbl.TabIndex = 25
         Me.GasLbl.Text = "Gas (Car)"
         '
@@ -243,7 +243,7 @@ Partial Class SemesterBudgeter
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(32, 180)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 13)
+        Me.Label3.Size = New System.Drawing.Size(84, 15)
         Me.Label3.TabIndex = 26
         Me.Label3.Text = "Entertainment"
         '
@@ -252,7 +252,7 @@ Partial Class SemesterBudgeter
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(74, 232)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(29, 13)
+        Me.Label4.Size = New System.Drawing.Size(33, 15)
         Me.Label4.TabIndex = 27
         Me.Label4.Text = "Misc"
         '
@@ -261,7 +261,7 @@ Partial Class SemesterBudgeter
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(74, 206)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(31, 13)
+        Me.Label5.Size = New System.Drawing.Size(35, 15)
         Me.Label5.TabIndex = 28
         Me.Label5.Text = "Food"
         '
@@ -270,7 +270,7 @@ Partial Class SemesterBudgeter
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(16, 76)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(88, 13)
+        Me.Label6.Size = New System.Drawing.Size(101, 15)
         Me.Label6.TabIndex = 29
         Me.Label6.Text = "Car Maintenance"
         '
@@ -279,7 +279,7 @@ Partial Class SemesterBudgeter
         Me.SellIncomeLbl.AutoSize = True
         Me.SellIncomeLbl.Location = New System.Drawing.Point(367, 128)
         Me.SellIncomeLbl.Name = "SellIncomeLbl"
-        Me.SellIncomeLbl.Size = New System.Drawing.Size(38, 13)
+        Me.SellIncomeLbl.Size = New System.Drawing.Size(45, 15)
         Me.SellIncomeLbl.TabIndex = 30
         Me.SellIncomeLbl.Text = "Selling"
         '
@@ -288,7 +288,7 @@ Partial Class SemesterBudgeter
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(362, 50)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(43, 13)
+        Me.Label8.Size = New System.Drawing.Size(49, 15)
         Me.Label8.TabIndex = 31
         Me.Label8.Text = "Parents"
         '
@@ -297,7 +297,7 @@ Partial Class SemesterBudgeter
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(63, 128)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(40, 13)
+        Me.Label9.Size = New System.Drawing.Size(47, 15)
         Me.Label9.TabIndex = 32
         Me.Label9.Text = "Utilities"
         '
@@ -306,7 +306,7 @@ Partial Class SemesterBudgeter
         Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(74, 154)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(30, 13)
+        Me.Label10.Size = New System.Drawing.Size(33, 15)
         Me.Label10.TabIndex = 33
         Me.Label10.Text = "Rent"
         '
@@ -315,7 +315,7 @@ Partial Class SemesterBudgeter
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(306, 102)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(99, 13)
+        Me.Label11.Size = New System.Drawing.Size(114, 15)
         Me.Label11.TabIndex = 34
         Me.Label11.Text = "Excess Scholarship"
         '
@@ -324,7 +324,7 @@ Partial Class SemesterBudgeter
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(381, 76)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(24, 13)
+        Me.Label12.Size = New System.Drawing.Size(27, 15)
         Me.Label12.TabIndex = 35
         Me.Label12.Text = "Job"
         '
@@ -333,7 +333,7 @@ Partial Class SemesterBudgeter
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(6, 25)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(97, 13)
+        Me.Label13.Size = New System.Drawing.Size(111, 15)
         Me.Label13.TabIndex = 36
         Me.Label13.Text = "Expenses Towards"
         '
@@ -342,7 +342,7 @@ Partial Class SemesterBudgeter
         Me.Label14.AutoSize = True
         Me.Label14.Location = New System.Drawing.Point(340, 25)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(65, 13)
+        Me.Label14.Size = New System.Drawing.Size(76, 15)
         Me.Label14.TabIndex = 37
         Me.Label14.Text = "Income from"
         '
@@ -351,7 +351,7 @@ Partial Class SemesterBudgeter
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(290, 288)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(93, 13)
+        Me.Label1.Size = New System.Drawing.Size(108, 15)
         Me.Label1.TabIndex = 39
         Me.Label1.Text = "Semester Balance"
         '
@@ -456,7 +456,7 @@ Partial Class SemesterBudgeter
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(200, 34)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(76, 13)
+        Me.Label7.Size = New System.Drawing.Size(88, 15)
         Me.Label7.TabIndex = 53
         Me.Label7.Text = "% of Expenses"
         '
@@ -465,16 +465,16 @@ Partial Class SemesterBudgeter
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(507, 34)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 13)
+        Me.Label2.Size = New System.Drawing.Size(75, 15)
         Me.Label2.TabIndex = 54
         Me.Label2.Text = "% of Income"
         '
         'BalanceOutput
         '
         Me.BalanceOutput.AutoSize = True
-        Me.BalanceOutput.Location = New System.Drawing.Point(326, 268)
+        Me.BalanceOutput.Location = New System.Drawing.Point(318, 268)
         Me.BalanceOutput.Name = "BalanceOutput"
-        Me.BalanceOutput.Size = New System.Drawing.Size(25, 13)
+        Me.BalanceOutput.Size = New System.Drawing.Size(25, 15)
         Me.BalanceOutput.TabIndex = 55
         Me.BalanceOutput.Text = "[    ]"
         '

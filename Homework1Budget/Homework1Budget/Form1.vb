@@ -163,8 +163,8 @@ Public Class SemesterBudgeter
             If Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense) < 0 Then
                 BalanceOutput.ForeColor = Color.DarkRed
                 BalanceOutput.Text = (Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense)).ToString("C2")
-            ElseIf Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense) < 0 Then
-                BalanceOutput.ForeColor = Color.LightGreen
+            ElseIf Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense) > 0 Then
+                BalanceOutput.ForeColor = Color.DarkGreen
                 BalanceOutput.Text = (Convert.ToDecimal(TempIncome) - Convert.ToDecimal(TempExpense)).ToString("C2")
             End If
 
