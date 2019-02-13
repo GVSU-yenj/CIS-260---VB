@@ -10,3 +10,15 @@ W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbproj.CoreCompileInputs.cache
 W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.exe
 W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.xml
 W:\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.pdb
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.exe.config
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.exe
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.pdb
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\bin\Debug\Lab1Weather.xml
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbprojAssemblyReference.cache
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.Form1.resources
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.Resources.resources
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbproj.GenerateResource.cache
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.vbproj.CoreCompileInputs.cache
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.exe
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.xml
+W:\CIS 260 - VB\Lab1Weather\Lab1Weather\obj\Debug\Lab1Weather.pdb
