@@ -1,0 +1,24 @@
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\bin\Debug\Lab8Files.exe.config
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\bin\Debug\Lab8Files.exe
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\bin\Debug\Lab8Files.pdb
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\bin\Debug\Lab8Files.xml
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbprojAssemblyReference.cache
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.Form1.resources
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.Resources.resources
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbproj.GenerateResource.cache
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbproj.CoreCompileInputs.cache
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.exe
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.xml
+W:\CIS 260 - VB\Lab8Files\Lab8Files\Lab8Files\obj\Debug\Lab8Files.pdb
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\bin\Debug\Lab8Files.exe.config
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\bin\Debug\Lab8Files.exe
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\bin\Debug\Lab8Files.pdb
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\bin\Debug\Lab8Files.xml
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbprojAssemblyReference.cache
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.Form1.resources
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.Resources.resources
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbproj.GenerateResource.cache
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.vbproj.CoreCompileInputs.cache
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.exe
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.xml
+W:\CIS 260 - VB\Search Homework\Lab8Files\Lab8Files\obj\Debug\Lab8Files.pdb
